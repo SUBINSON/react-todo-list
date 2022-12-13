@@ -23,6 +23,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn build"
   },
+  "homepage": "https://subinson.github.io/react-todo-list/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
