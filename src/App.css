@@ -22,8 +22,8 @@ body {
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 0.8rem;
   background: radial-gradient(ellipse at bottom, #456b39 0%, #182a13 100%);
-  width: 30rem;
-  height: 32rem;
+  width: 38rem;
+  height: 40rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }

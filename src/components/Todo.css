@@ -11,8 +11,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: #eeeeee;
-  width: 15rem;
-  height: 18rem;
+  width: 20rem;
+  height: 24rem;
   border-radius: 2rem;
 }
 
@@ -21,16 +21,18 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5rem;
+  width: 16rem;
 }
 
 .today {
   font-family: 'Rubik Gemstones', cursive;
   color: #85b6ff;
+  font-size: 1.6rem;
 }
 
 .check-button {
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -41,9 +43,13 @@
   border-radius: 50%;
   background: #85b6ff;
   color: antiquewhite;
-  width: 1rem;
-  height: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
   cursor: pointer;
+}
+
+.todo-button:hover {
+  background: #6185bc;
 }
 
 .todo-input-container {
@@ -51,20 +57,20 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 1.5rem;
-  width: 12rem;
+  width: 16rem;
 }
 
 .todo-input {
   font-family: 'Cute Font', cursive;
-  width: 10rem;
-  font-size: 1.2rem;
+  width: 12rem;
+  font-size: 1.4rem;
   border: none;
   border-radius: 0.2rem;
 }
 
 .todo-list-container {
   margin-top: 1.5rem;
-  width: 12rem;
+  width: 16rem;
 }
 
 .todo-list {
@@ -72,6 +78,6 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Cute Font', cursive;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   list-style: none;
 }
