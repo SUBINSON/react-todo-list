@@ -25,9 +25,25 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Rubik+Gemstones&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+      var sf = new Snowflakes({
+        color: '#ffffff', // 색상
+        count: 75, // 갯수
+        minOpacity: 0.2, // 최소 투명도 0: 투명 | 1: 불투명
+        maxOpacity: 0.6, // 최대 투명도
+      });
+    </script>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
